@@ -1,6 +1,7 @@
 //
 //  ContentView.swift
 //  NiceText
+//  Some code from Hacking With Swift
 //
 //  Created by Nick Cory on 2/15/23.
 //
@@ -31,8 +32,6 @@ struct TextFile: FileDocument {
     }
 }
 
-
-
 struct ContentView: View {
     
     @Binding var document: TextFile
@@ -43,11 +42,3 @@ struct ContentView: View {
         
     }
 }
-
-/**
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-*/
